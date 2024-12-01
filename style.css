@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6c63ff, #ea5a5a);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #ffffff10; /* Semi-transparent white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #6c63ff, #5ab9ea);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 0;
+}
+
+/* Main Content Styling */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Pushes the form container down */
+    width: 100%;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #6c63ff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.form-floating .form-control {
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.submit-button {
+    background: #6c63ff;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+.submit-button:hover {
+    background: #5ab9ea;
+}
+
+/* Tooltip Styling */
+.tooltip {
+    color: #6c63ff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    /* box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.footer p {
+    margin-top: 450px;
+    margin-bottom: 1rem;
+}
