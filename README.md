@@ -1,4 +1,3 @@
-MyFunUi
 Project Name: MyFunUi
 
 Description:
